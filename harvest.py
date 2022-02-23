@@ -75,13 +75,13 @@ def make_melon_type_lookup(melon_types):
     return melons_by_id
 
 
-melon_types = make_melon_types()
+# melon_types = make_melon_types()
 
-print_pairing_info(melon_types)
+# print_pairing_info(melon_types)
 
-melons_lookup = make_melon_type_lookup(melon_types)
+# melons_lookup = make_melon_type_lookup(melon_types)
 
-print(melons_lookup)
+# print(melons_lookup)
 
 
 ############
@@ -154,6 +154,6 @@ def get_sellability_report(melons):
         print(f'Havested by {melon.harvester} from Field {melon.field}. {sellable}')
 
 
-melons = make_melons(melon_types)
+# melons = make_melons(melon_types)
 
-get_sellability_report(melons)
+# get_sellability_report(melons)
